@@ -1,34 +1,38 @@
 body {
     font-family: "Open Sans", sans-serif;
+    background-image: linear-gradient(to right, white, yellow, orange);
 }
 
 h1, h2, h3 {
     font-family: "Lobster", cursive;
 }
 
-header {
-    color:brown;
-    border: solid honeydew;
-}
 
 footer {
     background-image: linear-gradient(blue, purple);
-    padding: 260px 20px;
+    padding: 20px 20px;
+    border: solid white;
+    border-width: 2px;
 }
 
 .jumbotron {
     background-image: linear-gradient(white, blue);
-    padding: 100px 20px;
+    padding: 50px 0px;
+    margin: 0px;
     text-align: center;
     color: black;
+    border: solid white;
+    border-width: 2px;
 }
 
-body {
-    background-image: linear-gradient(to right, white, yellow, orange);
-    padding: 130px;
-}
 
 .row {
     padding: 50px 0;
 }
 
+
+#index1, h5 {
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
