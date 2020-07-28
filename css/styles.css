@@ -22,7 +22,7 @@ footer {
     text-align: center;
     color: black;
     border: solid white;
-    border-width: 2px;
+    border-width: 0px;
 }
 
 
@@ -35,4 +35,8 @@ footer {
     background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.navbar {
+    background-color: purple;
 }
