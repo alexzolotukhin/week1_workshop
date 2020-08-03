@@ -9,14 +9,15 @@ h1, h2, h3 {
 
 
 footer {
-    background-image: linear-gradient(blue, purple);
+    background-image: linear-gradient(white, purple);
     padding: 20px 20px;
     border: solid white;
     border-width: 2px;
+    color:black;
 }
 
 .jumbotron {
-    background-image: linear-gradient(white, blue);
+    background-image: linear-gradient(white, purple);
     padding: 50px 0px;
     margin: 0px;
     text-align: center;
@@ -31,12 +32,31 @@ footer {
 }
 
 
-#index1, h5 {
+#index1 {
     background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .navbar {
-    background-color: purple;    
+    background-color: purple;
+}
+
+a {
+    color: black;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+.site-footer {
+    background-image: linear-gradient(grey, white);
 }
